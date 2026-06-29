@@ -5,7 +5,7 @@ Hands-on Cisco Packet Tracer lab demonstrating SOHO network configuration, DHCP 
 
 ## 🗺️ Network Topology Map
 
-![Network Topology](01-topology-map.png)
+![Network Topology](screenshots/01-topology-map.png)
 *Figure 1: Logical network design featuring local client devices routing over a simulated cable broadband internet connection to a corporate datacenter server.*
 
 ---
@@ -32,10 +32,14 @@ Hands-on Cisco Packet Tracer lab demonstrating SOHO network configuration, DHCP 
 
 ## 🔍 Verification & Proof of Connectivity
 
-### 1. End-to-End Ping Test
-![Ping Test](03-ping-test.png)
-*Figure 2: ICMP verification from the local client terminal to the remote corporate server showing 0% packet loss.*
+### 1. Web Server Access Verification
+![Web Server Verification](screenshots/02-web-verification.png)
+*Figure 2: Verification showing successful connection to the cisco.srv website homepage from the local client web browser tool.*
 
-### 2. Web Server Access Verification
-![Web Server Verification](02-web-verification.png)
-*Figure 3: Verification showing successful connection to the cisco.srv website homepage from the local client web browser tool.*
+### 2. End-to-End Ping Test
+![Ping Test](screenshots/03-ping-test.png)
+*Figure 3: ICMP verification from the local client terminal to the remote corporate server showing 0% packet loss.*
+
+### 3. Protocol Data Unit (PDU) Packet Simulation
+![Traffic Simulation](screenshots/04-traffic-simulation.png)
+*Figure 4: Capturing real-time ICMP and HTTP packet data units routing across the broadband cable network cloud interface.*
